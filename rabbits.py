@@ -14,7 +14,7 @@ def do_research(cages, adults, babies):
     total = adults + babies
     
     #open file to write in
-    with open('C:/Users/default.DESKTOP-DVRK650/OneDrive/Documents/rabbits.csv', 'w') as output_file:
+    with open('user_folder/rabbits.csv', 'w') as output_file:
         print('# Table of rabbit pairs\nMonth, Adults, Babies, Total',file = output_file)
         
         print(f'{month}, {adults}, {babies}, {total}', file = output_file)
